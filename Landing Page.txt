@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Ladies Shopee</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ccc; /* Grey background color */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        h1{
+            color: #ffffff; /* Highlight color */
+            background-color: #333; /* Background color */
+            padding: 0.5em;
+            border-radius: 5px;
+            font-size: 3em; /* Increased font size */
+        }
+
+        p {
+            color: #666;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: #fff;
+            background-color: #ff7b2f;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #333;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 2em;
+        }
+
+        .product-card {
+            width: 30%;
+            margin: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SAMARTH LADIES SHOPEE</h1>
+        <p>Your destination for trendy women's clothing</p>
+    </header>
+
+    <section>
+        <h2>Welcome to Samarth Ladies Shopee</h2>
+        <p>Discover the latest fashion trends and update your wardrobe with our exclusive collection of women's clothing.</p>
+        <a href="#shop-now" class="cta-button">Shop Now</a>
+    </section>
+
+    <section id="shop-now">
+        <h2>Shop Now</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="https://www.fnp.com/images/pr/x/v20230111153317/paya-kundan-n-pearl-choker-necklace_1.jpg" alt="Product 1" class="product-image">
+                <h3>Necklace</h3>
+                <p>Paya Kundan N Pearl Choker Necklace</p>
+            </div>
+            <div class="product-card">
+                <img src="https://www.fnp.com/images/pr/l/v20230914142849/white-pearl-flower-dangler-earrings_1.jpg" alt="Product 2" class="product-image">
+                <h3>Ear Rings</h3>
+                <p>White Pearl Flower Dangler Earrings</p>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/originals/39/48/90/394890efae9e04ff927c9578b664e972.jpg" alt="Product 3" class="product-image">
+                <h3>Bangles</h3>
+                <p>2gm Gold Plated Bangles with Moti & Stone work</p>
+            </div>
+            <div class="product-card">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2022/11/YN/DJ/GN/910397/anora-fashions-silk-printed-red-kurti-for-womens-500x500.jpeg" alt="Product 4" class="product-image">
+                <h3>Kurtis</h3>
+                <p>One Piece Kurtis (Lehenga) </p>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/e7/0d/d8/e70dd8324e41dd4a64393e158e0c113c.jpg" alt="Product 5" class="product-image">
+                <h3>Kurtis Pant Set</h3>
+                <p>Fancy Kurtis in 2pc & 3pc set</p>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/originals/f2/33/b1/f233b11aa021b9ffac90465faf4bff03.jpg" alt="Product 6" class="product-image">
+                <h3>Night Suit</h3>
+                <p>Nightwear Pajama Pant Set</p>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/S/aplus-media/sc/0fa82f16-e82b-48b8-9e84-6a423b3d4e16.__CR0,0,970,600_PT0_SX970_V1___.jpg" alt="Product 7" class="product-image">
+                <h3>Night Gown</h3>
+                <p>Night Gowns in various type of fabric</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Samarth Ladies Shopee. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
